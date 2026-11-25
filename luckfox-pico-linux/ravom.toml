@@ -1,0 +1,12 @@
+[project]
+name = "luckfox-pico-linux"
+default_envs = ["luckfox_pico"]
+
+[env.luckfox_pico]
+platform = "linux_sbc"
+board = "luckfox_pico"
+framework = "linux"
+build_flags = []
+lib_deps = []
+upload_protocol = "probe-rs"
+monitor_speed = 115200

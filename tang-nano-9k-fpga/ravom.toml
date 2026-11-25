@@ -1,0 +1,12 @@
+[project]
+name = "tang-nano-9k-fpga"
+default_envs = ["tang_nano_9k"]
+
+[env.tang_nano_9k]
+platform = "gowin_fpga"
+board = "tang_nano_9k"
+framework = "rust-hdl"
+build_flags = []
+lib_deps = []
+upload_protocol = "probe-rs"
+monitor_speed = 115200

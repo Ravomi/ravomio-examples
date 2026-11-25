@@ -1,0 +1,12 @@
+[project]
+name = "hpm6750-riscv"
+default_envs = ["hpm6750evkmini"]
+
+[env.hpm6750evkmini]
+platform = "hpmicro"
+board = "hpm6750evkmini"
+framework = "embassy"
+build_flags = []
+lib_deps = []
+upload_protocol = "probe-rs"
+monitor_speed = 115200

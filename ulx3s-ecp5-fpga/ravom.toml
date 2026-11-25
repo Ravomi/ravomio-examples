@@ -1,0 +1,12 @@
+[project]
+name = "ulx3s-ecp5-fpga"
+default_envs = ["ulx3s_85f"]
+
+[env.ulx3s_85f]
+platform = "lattice_ecp5"
+board = "ulx3s_85f"
+framework = "rust-hdl"
+build_flags = []
+lib_deps = []
+upload_protocol = "probe-rs"
+monitor_speed = 115200

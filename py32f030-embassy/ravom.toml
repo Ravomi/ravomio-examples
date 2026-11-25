@@ -1,0 +1,12 @@
+[project]
+name = "py32f030-embassy"
+default_envs = ["py32f030"]
+
+[env.py32f030]
+platform = "puya"
+board = "py32f030"
+framework = "embassy"
+build_flags = []
+lib_deps = []
+upload_protocol = "probe-rs"
+monitor_speed = 115200

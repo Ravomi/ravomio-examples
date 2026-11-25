@@ -1,0 +1,12 @@
+[project]
+name = "milkv-duo-linux"
+default_envs = ["milkv_duo"]
+
+[env.milkv_duo]
+platform = "linux_sbc"
+board = "milkv_duo"
+framework = "linux"
+build_flags = []
+lib_deps = []
+upload_protocol = "probe-rs"
+monitor_speed = 115200

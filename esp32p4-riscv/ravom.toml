@@ -1,0 +1,12 @@
+[project]
+name = "esp32p4-riscv"
+default_envs = ["esp32p4_evboard"]
+
+[env.esp32p4_evboard]
+platform = "espressif32"
+board = "esp32p4_evboard"
+framework = "esp-idf"
+build_flags = []
+lib_deps = []
+upload_protocol = "probe-rs"
+monitor_speed = 115200

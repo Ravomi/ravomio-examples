@@ -1,0 +1,12 @@
+[project]
+name = "stm32f401-rtic"
+default_envs = ["stm32f401ccu6"]
+
+[env.stm32f401ccu6]
+platform = "ststm32"
+board = "stm32f401ccu6"
+framework = "rtic"
+build_flags = []
+lib_deps = []
+upload_protocol = "probe-rs"
+monitor_speed = 115200

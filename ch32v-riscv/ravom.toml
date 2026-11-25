@@ -1,0 +1,12 @@
+[project]
+name = "ch32v-riscv"
+default_envs = ["adafruit_qtpy_ch32v203"]
+
+[env.adafruit_qtpy_ch32v203]
+platform = "ch32v"
+board = "adafruit_qtpy_ch32v203"
+framework = "bare-metal"
+build_flags = []
+lib_deps = []
+upload_protocol = "probe-rs"
+monitor_speed = 115200
