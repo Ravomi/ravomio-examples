@@ -1,0 +1,12 @@
+[project]
+name = "mirui-embedded-ui"
+default_envs = ["esp32s3"]
+
+[env.esp32s3]
+platform = "espressif32"
+board = "esp32s3"
+framework = "mirui"
+build_flags = []
+lib_deps = []
+upload_protocol = "probe-rs"
+monitor_speed = 115200

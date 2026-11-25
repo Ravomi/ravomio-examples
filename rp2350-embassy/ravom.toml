@@ -1,0 +1,12 @@
+[project]
+name = "rp2350-embassy"
+default_envs = ["pico2_rp2350"]
+
+[env.pico2_rp2350]
+platform = "raspberrypi"
+board = "pico2_rp2350"
+framework = "embassy"
+build_flags = []
+lib_deps = []
+upload_protocol = "probe-rs"
+monitor_speed = 115200
